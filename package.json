@@ -1,0 +1,32 @@
+{
+  "name": "react-clocks-buildbymyself",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean-folder": "rimraf ./dist/",
+    "build": "npm run clean-folder && webpack",
+    "start": "webpack serve --open"
+  },
+  "author": "Edward Yang",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "@babel/preset-react": "^7.22.15",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "rimraf": "^5.0.5",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.23.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

@@ -1,0 +1,107 @@
+/*!*********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./public/styles.css ***!
+  \*********************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200&family=Raleway:wght@600&family=Russo+One&family=Space+Grotesk:wght@600&display=swap);
+/*!*************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./public/styles.css (1) ***!
+  \*************************************************************************/
+* {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 1.3rem;
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+body {
+  background: #2E4864;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; 
+  height: 100vh;
+  margin: 0;
+}
+
+#panel, #author {
+  border: 1px solid white;
+  width: 500px;
+}
+
+#break-label, #break-length, #break-decrement, #break-increment, #session-label, #session-decrement, #session-length, #session-increment, #play-panel {
+  border: 1px solid white;
+}
+
+#panel {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+  height: 70vh;
+}
+
+#title {
+  font-size: 1.5rem;
+  width: 100%;
+  font-weight: bold;
+  color: #EBEBD3;
+}
+
+#combined-panel {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#break-panel, #session-panel {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+}
+
+#break-label, #session-label {
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+#break-decrement, #break-length, #break-increment, #session-decrement, #session-length, #session-increment   {
+  width: 33.3%;
+} 
+
+#timer-panel {
+  border: 6px solid #13353A;
+  border-radius: 30px;
+  width: 50%;
+}
+
+#timer-label, #time-left {
+  font-size: 2rem;
+}
+
+#time-left {
+  font-weight: bold;
+}
+
+#play-panel {
+  width: 100%;
+  height: 13%;
+  margin: -15px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-regular.fa-circle-pause {
+  padding: 0px 10px;
+}
+
+i:hover {
+  color: #BEEF9E;
+  cursor: pointer;
+}
+
+#timer-panel:hover {
+  border: 6px solid #2D728F;
+}
+
