@@ -1,4 +1,4 @@
-import React from 'react';
+//import React from 'react';
 //import React, {Component} from 'react';
 //You should use a frontend framework (like React for example) 
 
